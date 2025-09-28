@@ -52,7 +52,7 @@ class InstagramOSINT:
 
     def __init__(self, username):
 
-        self.username = username
+        self.username = @88moniquesoares
 
         self.useragents = ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
 
@@ -102,7 +102,7 @@ class InstagramOSINT:
 
         # Get the html data with the requests module
 
-        r = requests.get(f'http://instagram.com/{self.username}', headers={'User-Agent': random.choice(self.useragents)})
+        r = requests.get(f'http://instagram.com/@88moniquesoares}', headers={'User-Agent': random.choice(self.useragents)})
 
         soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -134,7 +134,7 @@ class InstagramOSINT:
 
                              "Profile name": self.description['name'],
 
-                             "URL": self.description['mainEntityofPage']['@id'],
+                             "URL": http://instagram.com/@88moniquesoares self.description['mainEntityofPage']['@88moniquesoares'],
 
                              "Followers": text[0], "Following": text[2], "Posts": text[4],
 
